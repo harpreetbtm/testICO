@@ -1,0 +1,65 @@
+{
+  "contract_name": "ArrayUtil",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "values",
+          "type": "address[]"
+        },
+        {
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "name": "RemoveByValue",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "values",
+          "type": "address[]"
+        },
+        {
+          "name": "value",
+          "type": "address"
+        }
+      ],
+      "name": "IndexOf",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "values",
+          "type": "address[]"
+        },
+        {
+          "name": "i",
+          "type": "uint256"
+        }
+      ],
+      "name": "RemoveByIndex",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6102918061001f6000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166320593f2381146100535780634a8107e3146100b157806352ece7041461011f575b600080fd5b6100af60046024813581810190830135806020818102016040519081016040528093929190818152602001838360200280828437509496505050923573ffffffffffffffffffffffffffffffffffffffff169250610167915050565b005b61010d60046024813581810190830135806020818102016040519081016040528093929190818152602001838360200280828437509496505050923573ffffffffffffffffffffffffffffffffffffffff169250610185915050565b60405190815260200160405180910390f35b6100af600460248135818101908301358060208181020160405190810160405280939291908181526020018383602002808284375094965050933593506101f292505050565b005b60006101738383610185565b905061017f83826101f2565b5b505050565b6000805b8273ffffffffffffffffffffffffffffffffffffffff168482815181106101ac57fe5b9060200190602002015173ffffffffffffffffffffffffffffffffffffffff16141580156101da5750835181105b156101e757600101610189565b8091505b5092915050565b8151811015610260575b60018251038110156102595781816001018151811061021757fe5b9060200190602002015182828151811061022d57fe5b73ffffffffffffffffffffffffffffffffffffffff9092166020928302909101909101526001016101fc565b6001825150505b5b50505600a165627a7a72305820b960ee7f9af4f84eabb43a9f50c50c30a499b4b3b5ad660ae8f7fdfdd3e6dbf50029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1507171411834
+}
